@@ -2,7 +2,7 @@
 id: set-up-adurc
 title: Set up ADURC
 sidebar_label: Set up adurc
-slug: /set-up-adurc
+slug: /getting-started/set-up-adurc
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

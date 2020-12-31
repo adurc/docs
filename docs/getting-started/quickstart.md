@@ -2,7 +2,7 @@
 id: quickstart
 title: Quickstart
 sidebar_label: Quickstart
-slug: /quickstart
+slug: /getting-started
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
