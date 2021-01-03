@@ -1,6 +1,14 @@
 module.exports = {
-  someSidebar: {
-    'Adurc': ['introduction'],
-    'Getting Started': ['getting-started/quickstart', 'getting-started/set-up-adurc'],
-  },
+  getting_started: [
+    'getting-started/quickstart',
+    'getting-started/set-up-adurc',
+  ],
+  concepts: [
+    {
+      Overview: [
+        'concepts/overview/what-is-adurc',
+        'concepts/overview/why-adurc'
+      ],
+    }
+  ]
 };

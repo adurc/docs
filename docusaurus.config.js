@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'adurc', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'Adurc', // Usually your repo name.
   themeConfig: {
     navbar: {
       logo: {
@@ -16,9 +16,15 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/getting-started/quickstart',
+          activeBasePath: 'docs/getting-started',
+          label: 'Getting Started',
+          position: 'left',
+        },
+        {
+          to: 'docs/concepts/overview/what-is-adurc',
+          activeBasePath: 'docs/concepts',
+          label: 'Concepts',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -83,17 +89,11 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
+        'docs': {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/adurc/docs/edit/main/docs/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/adurc/docs/edit/main/blog/',
+            'https://github.com/adurc/docs/edit/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
