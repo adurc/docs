@@ -7,9 +7,9 @@ slug: /concepts/overview/what-is-adurc
 
 En esta página encontrará una descripción general de qué es Adurc y cómo funciona.
 
-Si quieres empezar con una _practica introductoria_ y aprender sobre la estructura Adurc, dirigete a **[Quickstart](/docs/getting-started)**.
+Si quieres empezar con una _practica introductoria_ y aprender sobre la estructura Adurc, dirigete a **[Quickstart](/docs/getting-started/quickstart)**.
 
-Para saber más sobre la _motivación_ por Adurc, revisa la página **[Why Adurc?](/docs/getting-started)**.
+Para saber más sobre la _motivación_ por Adurc, revisa la página **[Why Adurc?](/docs/getting-started/quickstart)**.
 
 ## ¿Qué es Adurc?
 Adurc es un framework [open source](https://github.com/adurc/) para construir ORM de siguiente generación multi proveedores. El principal objetivo es el de evitar el boilerplate convencional causado por los mantenimientos de los diferentes modelos de nuestra aplicación, al mismo tiempo que ofrece flexibilidad para centrarte en la implementación de tu lógica de negocio.

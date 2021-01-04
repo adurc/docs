@@ -42,12 +42,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Introduction',
-              to: 'docs/',
+              label: 'Getting Started',
+              to: 'docs/getting-started/quickstart',
             },
             {
-              label: 'Getting started',
-              to: 'docs/getting-started',
+              label: 'Adurc Concepts',
+              to: 'docs/concepts/overview/what-is-adurc',
             },
           ],
         },
