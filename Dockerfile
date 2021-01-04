@@ -19,6 +19,6 @@ COPY nginx/adurc.conf /etc/nginx/nginx.conf
 
 COPY --from=builder /usr/src/adurc-website/build/ .
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
