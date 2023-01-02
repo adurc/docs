@@ -1,3 +1,7 @@
+> **AVISO:** Este repositorio está obsoleto y ha sido trasladado al monorepo [adurc/adurc](https://github.com/adurc/adurc). No se realizarán más actualizaciones en este repositorio.
+
+---
+
 # Adurc
 
 Adurc is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
